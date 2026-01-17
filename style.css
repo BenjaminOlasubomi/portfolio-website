@@ -1,0 +1,56 @@
+/* Reset basic spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Header */
+.site-header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 14px;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+  }
+}
